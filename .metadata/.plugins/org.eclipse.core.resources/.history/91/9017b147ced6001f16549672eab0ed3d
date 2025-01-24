@@ -1,0 +1,24 @@
+/*
+ * ultrasonic.c
+ *
+ *  Created on: Jan 18, 2025
+ *      Author: user
+ */
+
+#include "ultrasonic.h"
+
+uint16_t IC_VAL1; // tim3의 상승 엣지 검출 시간
+uint16_t IC_VAL2; // tim3의 하강 엣지 검출 시간
+uint16_t difference; // IC_VAL2 - IC_VAL1 실제 거리를 저장할 변수
+uint8_t distance;
+bool isFirstCapture;
+
+// tim3의 interrupt callback
+void hal_ti
+void initUltrasonic(TIM_HandleTypeDef *inHtim){
+
+}
+
+uinit8_t getDistance(){
+
+}

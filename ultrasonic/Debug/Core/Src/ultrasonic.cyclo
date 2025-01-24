@@ -1,0 +1,3 @@
+../Core/Src/ultrasonic.c:19:6:HAL_TIM_IC_CaptureCallback	4
+../Core/Src/ultrasonic.c:47:6:initUltrasonic	1
+../Core/Src/ultrasonic.c:52:9:getDistance	1

@@ -1,0 +1,4 @@
+../Core/Src/app.c:15:6:setSpeed	1
+../Core/Src/app.c:19:6:runMotor	2
+../Core/Src/app.c:31:6:stopMotor	1
+../Core/Src/app.c:36:6:app	5

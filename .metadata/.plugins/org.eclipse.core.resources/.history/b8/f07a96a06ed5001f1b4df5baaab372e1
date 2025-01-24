@@ -1,0 +1,16 @@
+/*
+ * ultrasonic.c
+ *
+ *  Created on: Jan 18, 2025
+ *      Author: user
+ */
+
+#include "ultrasonic.h"
+
+void initUltrasonic(TIM_HandleTypeDef *inHtim){
+
+}
+
+uinit8_t getDistance(){
+
+}
