@@ -1,21 +1,7 @@
-16:10:49 **** Incremental Build of configuration Debug for project stepperMotor ****
+14:13:14 **** Incremental Build of configuration Debug for project fft ****
 make -j8 all 
-arm-none-eabi-gcc "../Core/Src/app.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/app.d" -MT"Core/Src/app.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/app.o"
-arm-none-eabi-gcc -o "stepperMotor.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\user\STM32CubeIDE\workspace\stepperMotor\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stepperMotor.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: stepperMotor.elf
- 
-arm-none-eabi-size  stepperMotor.elf 
-arm-none-eabi-objdump -h -S stepperMotor.elf  > "stepperMotor.list"
+arm-none-eabi-size  fft.elf 
    text	   data	    bss	    dec	    hex	filename
-  10876	     16	   1760	  12652	   316c	stepperMotor.elf
-Finished building: default.size.stdout
- 
-Finished building: stepperMotor.list
- 
-16:10:51 **** Incremental Build of configuration Debug for project stepperMotor ****
-make -j8 all 
-arm-none-eabi-size  stepperMotor.elf 
-   text	   data	    bss	    dec	    hex	filename
-  10876	     16	   1760	  12652	   316c	stepperMotor.elf
+ 107552	    104	  23808	 131464	  20188	fft.elf
 Finished building: default.size.stdout
  
